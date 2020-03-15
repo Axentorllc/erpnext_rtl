@@ -1,0 +1,18 @@
+.frappe-rtl .list-row .level-right {
+    flex: 2;
+}
+
+.frappe-rtl .page-icon-group {
+    flex-direction: row-reverse;
+    display: inline-flex;
+}
+
+.frappe-rtl .datepicker--nav {
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 991px) {
+    .frappe-rtl .layout-side-section .overlay-sidebar {
+        transform: translateX(-400%) !important;
+    }
+}
